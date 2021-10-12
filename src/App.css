@@ -1,0 +1,106 @@
+* {
+  margin : 0;
+  padding: 0;
+}
+
+.app-header {
+  position: fixed;
+  top     : 55px;
+  width   : 100%
+}
+
+.app-header-container {
+  padding-right: 20px;
+}
+
+.app-header-btn {
+  float         : right;
+  display       : inline-block;
+  font-weight   : 400;
+  text-align    : center;
+  white-space   : nowrap;
+  vertical-align: middle;
+  border        : 1px solid transparent;
+  padding       : .375rem .75rem;
+  font-size     : 1rem;
+  line-height   : 1.5;
+  border-radius : .25rem;
+  cursor        : pointer;
+}
+
+.app-header-btn:hover {
+  background: #ccc;
+}
+
+.app-header label {
+  float      : right;
+  font-weight: 800;
+  margin     : 10px;
+}
+
+.section-container {
+  margin-top: 70px;
+  padding   : 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width          : 100%;
+  border-radius  : 6px;
+}
+
+thead>tr>th {
+  border    : 1px solid #dddddd;
+  text-align: left;
+  padding   : 8px;
+}
+
+tbody>tr>td {
+  border    : 1px solid #dddddd;
+  text-align: left;
+  padding   : 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+ul {
+  border-bottom: solid 1px #ccc;
+  width        : 100%;
+}
+
+ul li {
+  display: inline-block;
+  cursor : pointer;
+  margin : 10px
+}
+
+ul li a {
+  text-decoration: none;
+  padding        : 10px;
+  color          : #212121;
+}
+
+ul li a:hover {
+  background   : #ccc;
+  border-radius: 2px;
+}
+
+.colorBlue {
+  color: #4285f4;
+}
+
+.section-50 {
+  width : 45%;
+  margin: 10px;
+  float : left;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
